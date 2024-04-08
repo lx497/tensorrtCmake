@@ -1,3 +1,0 @@
-/home/lx497/code/DCNN/cmake_tensorrt/build/CMakeFiles/runtime.dir
-/home/lx497/code/DCNN/cmake_tensorrt/build/CMakeFiles/edit_cache.dir
-/home/lx497/code/DCNN/cmake_tensorrt/build/CMakeFiles/rebuild_cache.dir
