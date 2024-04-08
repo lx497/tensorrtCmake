@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/runtime.dir/main.cpp.o -o runtime  -Wl,-rpath,/home/lx497/TensorRT-10.0.0.6/lib:/usr/local/cuda-12.2/lib64 /home/lx497/TensorRT-10.0.0.6/lib/libnvinfer.so /home/lx497/TensorRT-10.0.0.6/lib/libnvinfer_plugin.so /usr/local/cuda-12.2/lib64/libcudart.so 
