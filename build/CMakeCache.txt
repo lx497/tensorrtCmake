@@ -364,6 +364,12 @@ nvinfer_plugin_INCLUDE_DIR:PATH=/home/lx497/TensorRT-10.0.0.6/include
 //Path to a library.
 nvinfer_plugin_LIBRARY:FILEPATH=/home/lx497/TensorRT-10.0.0.6/lib/libnvinfer_plugin.so
 
+//Path to a file.
+nvonnxparsers_INCLUDE_DIR:PATH=/home/lx497/TensorRT-10.0.0.6/include
+
+//Path to a library.
+nvonnxparsers_LIBRARY:FILEPATH=/home/lx497/TensorRT-10.0.0.6/lib/libnvonnxparser.so
+
 
 ########################
 # INTERNAL cache entries
@@ -610,7 +616,7 @@ CUDA_run_nvcc:INTERNAL=/usr/share/cmake-3.22/Modules/FindCUDA/run_nvcc.cmake
 //Details about finding CUDA
 FIND_PACKAGE_MESSAGE_DETAILS_CUDA:INTERNAL=[/usr/local/cuda-12.2][/usr/local/cuda-12.2/bin/nvcc][/usr/local/cuda-12.2/include][/usr/local/cuda-12.2/lib64/libcudart_static.a][v12.2()]
 //Details about finding TensorRT
-FIND_PACKAGE_MESSAGE_DETAILS_TensorRT:INTERNAL=[/home/lx497/TensorRT-10.0.0.6/include/;/home/lx497/TensorRT-10.0.0.6/include][cfound components: nvinfer nvinfer_plugin ][v10.0.0()]
+FIND_PACKAGE_MESSAGE_DETAILS_TensorRT:INTERNAL=[/home/lx497/TensorRT-10.0.0.6/include/;/home/lx497/TensorRT-10.0.0.6/include][cfound components: nvinfer nvinfer_plugin nvonnxparsers ][v10.0.0()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //ADVANCED property for variable: nvinfer_INCLUDE_DIR
@@ -621,4 +627,8 @@ nvinfer_LIBRARY-ADVANCED:INTERNAL=1
 nvinfer_plugin_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: nvinfer_plugin_LIBRARY
 nvinfer_plugin_LIBRARY-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: nvonnxparsers_INCLUDE_DIR
+nvonnxparsers_INCLUDE_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: nvonnxparsers_LIBRARY
+nvonnxparsers_LIBRARY-ADVANCED:INTERNAL=1
 

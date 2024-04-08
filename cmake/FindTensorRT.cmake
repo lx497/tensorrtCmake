@@ -88,7 +88,7 @@ macro(tensorrt_find_component _component _header _library)
 endmacro()
 
 if (NOT TensorRT_FIND_COMPONENTS)
-  set(TensorRT_FIND_COMPONENTS nvinfer nvinfer_plugin)
+  set(TensorRT_FIND_COMPONENTS nvinfer nvinfer_plugin nvonnxparsers)
 endif ()
 
 
